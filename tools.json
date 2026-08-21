@@ -1,0 +1,15 @@
+[{
+    "type": "function",
+    "name": "termination_function",
+    "description": "Set the boolean in this function to true if the user wishes to end the conversation",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+        "type": "boolean",
+        "description": "True if user wants to terminate conversation, or false if the user doesn't want to yet"
+        }
+      },
+      "required": ["enabled"]
+    }
+}]
